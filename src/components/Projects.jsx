@@ -11,7 +11,7 @@ const Projects = () => {
     const navigate = useNavigate()
 
     return (
-        <div id="projects" className="flex flex-col lg:flex-row gap-5 md:gap-0 md:p-5 justify-center border border-gray-700/50 w-[100%]">
+        <div id="projects" className="flex flex-col lg:flex-row gap-5 md:gap-0 md:p-5  py-5 justify-center border border-gray-700/50 w-[100%]">
             <p className="text-2xl md:text-3xl lg:w-[25%] md:mb-4 text-center">{lang === 'english' ? 'Latest Projects' : 'Ultimos Proyectos'}</p>
 
             <div className="flex flex-col">
