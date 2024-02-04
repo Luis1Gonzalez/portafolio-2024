@@ -9,11 +9,11 @@ const ProjectsDetails = () => {
     const navigate = useNavigate()
 
     return (
-        <div className="flex flex-col min-h-screen items-center">
-            <div className="w-[90%]">
+        <div className="flex flex-col min-h-screen items-center w-[100%]">
+            <div className="w-[95%]">
                 <NavMain />
             </div>
-            <div className='flex flex-col max-w-[1100px] min-w-[320px] w-[90%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
+            <div className='flex flex-col max-w-[1100px] min-w-[320px] w-[95%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
 
                 <div className="flex flex-col gap-10 md:gap-0 p-5 justify-center items-center border border-gray-700/50">
                     <p className="text-2xl md:text-3xl md:w-[25%] md:mb-4 text-center">{lang === 'english' ? 'Projects' : 'Proyectos'}</p>

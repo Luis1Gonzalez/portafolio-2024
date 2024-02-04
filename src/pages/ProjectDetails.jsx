@@ -22,12 +22,12 @@ const ProjectDetails = () => {
     }, [])
 
     return (
-        <div className="flex flex-col min-h-screen items-center">
-            <div className="w-[90%]">
+        <div className="flex flex-col w-[100%] min-h-screen items-center">
+            <div className="w-[95%]">
                 <NavMain />
             </div>
 
-            <div className='flex flex-col max-w-[1100px] min-w-[320px] w-[90%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
+            <div className='flex flex-col max-w-[1100px] min-w-[320px] w-[95%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
 
                 <div className="flex flex-col md:gap-0 mt-4 justify-center items-center">
                     <p className="text-2xl md:text-3xl md:w-[25%] text-center">{lang === 'english' ? 'Projects' : 'Proyectos'}</p>
@@ -43,22 +43,22 @@ const ProjectDetails = () => {
 
 
 
-                            <div className='text-stone-200 text-justify md:flex flex-wrap justify-evenly'>
-                                <p className='mb-5  md:w-[45%]'>{lang === 'spanish' ? selectedProject.spanish1 : selectedProject.english1}</p>
+                            <div className='flex flex-col items-center text-stone-200 text-justify lg:flex-row flex-wrap justify-evenly'>
+                                <p className='mb-5  lg:w-[45%]'>{lang === 'spanish' ? selectedProject.spanish1 : selectedProject.english1}</p>
 
 
 
-                                <div className='mb-5  md:w-[45%]'>
+                                <div className='mb-5  lg:w-[45%]'>
                                     <img src={selectedProject.image1} alt={`imagen 1 del proyecto ${selectedProject.name}`} />
                                 </div>
 
-                                <p className='mb-5  md:w-[45%]'>{lang === 'spanish' ? selectedProject.spanish2 : selectedProject.english2}</p>
+                                <p className='mb-5  lg:w-[45%]'>{lang === 'spanish' ? selectedProject.spanish2 : selectedProject.english2}</p>
 
-                                <div className='mb-5  md:w-[45%]'>
+                                <div className='mb-5  lg:w-[45%]'>
                                     <img src={selectedProject.image2} alt={`imagen 2 del proyecto ${selectedProject.name}`} />
                                 </div>
 
-                                <div className='mb-5 p-2 flex flex-col items-center md:w-[45%] gap-3'>
+                                <div className='mb-2 p-2 flex flex-col items-center lg:items-end lg:w-[45%] gap-3'>
                                     <img className='' src={selectedProject.image3} alt={`imagen 3 del proyecto ${selectedProject.name}`} />
                                     <div className="flex gap-2">
                                     <a target={'_blank'} rel="noreferrer" className='pointer block text-end italic text-yellow-500 capitalize' href={selectedProject.lighthouse}>{lang === 'spanish' ? 'Medición según LightHouse' : 'Measurement according to LightHouse'}</a>
