@@ -1,6 +1,7 @@
 import { LanguageProvider } from "./context/LanguageProvider"
+import Core from "./Core.jsx"
 
-import Core from "./core"
+
 
 function App() {
  
