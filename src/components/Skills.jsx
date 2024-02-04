@@ -32,7 +32,7 @@ const Skills = () => {
                     </div>
 
                     <div className='flex flex-col box-border md:flex-row gap-3 md:gap-0 justify-start items-center w-[100%]'>
-                        <p className='text-center lg:text-2xl mb-2 md:w-[25%]'>{lang === 'english' ? 'Libreries/Tolls' : 'Librerias/Herramientas'}</p>
+                        <p className='text-center lg:text-2xl mb-2 md:w-[25%]'>{lang === 'english' ? 'Libreries / Tolls' : 'Librerias / Herramientas'}</p>
                         <div className='flex gap-2 flex-wrap md:gap-3 w-auto justify-center items-center'>
                             {libreriesTollsFrontend.map(skill => (
                                 <div
@@ -62,7 +62,7 @@ const Skills = () => {
                     </div>
 
                     <div className='flex flex-col box-border md:flex-row gap-3 md:gap-0 justify-start items-center w-[100%]'>
-                        <p className='text-center lg:text-2xl mb-2 md:w-[25%]'>{lang === 'english' ? 'Libreries/Tolls' : 'Librerias/Herramientas'}</p>
+                        <p className='text-center lg:text-2xl mb-2 md:w-[25%]'>{lang === 'english' ? 'Libreries / Tolls' : 'Librerias / Herramientas'}</p>
                         <div className='flex gap-2 flex-wrap md:gap-3 w-auto justify-center items-center'>
                             {libreriesTollsBackend.map(skill => (
                                 <div
