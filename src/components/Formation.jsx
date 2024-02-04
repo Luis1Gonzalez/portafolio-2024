@@ -40,7 +40,7 @@ const Formation = () => {
 
                     <p className="text-xl font-semibold mt-2">{lang === 'english' ? 'Courses/Certifications' : 'Cursos/Certificaciones'}</p>
 
-                    <div className="w-[100%] flex flex-col xl:flex-row items-center justify-center lg:justify-around text-white h-auto gap-1 ">
+                    <div className="w-[100%] flex flex-col xl:flex-row items-center justify-center lg:justify-around text-white h-auto gap-1 xl:items-start">
 
                         <div className="p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex flex-col gap-3 border-box h-[50px] overflow-hidden hover:overflow-visible hover:h-auto">
                             <p className="text-lg font-semibold text-center text-gray-300">Full Stack Bootcamp </p>
