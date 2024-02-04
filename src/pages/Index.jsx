@@ -8,7 +8,7 @@ import Skills from "../components/Skills"
 
 const Core = () => {
     return (
-        <div className='flex flex-col w-[100%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
+        <div className='flex flex-col w-[100%] h-[100%] p-1 md:p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
             <Header />
             <AboutMe />
             <Projects />
