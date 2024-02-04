@@ -177,6 +177,21 @@ const details = [
 //     github: 'https://github.com/Luis1Gonzalez/portafolio-luis1gonzalez',
 // },
 
+// {
+//     id: 7,
+//     name: 'Portfolio - 2023',
+//     spanish1:'En mi portafolio web, podrás encontrar una descripción detallada de mi experiencia en el área de desarrollo web, así como también las metodologías y habilidades que utilizo en mi trabajo. Además, podrás conocer de primera mano mis habilidades blandas y cómo las aplico para asegurar el éxito en cada proyecto.',
+//     english1:'In my web portfolio, you will find a detailed description of my experience in the web development area, as well as the methodologies and skills I use in my work. In addition, you will be able to know first hand my soft skills and how I apply them to ensure success in each project.',
+//     spanish2:'En cuanto a la tecnología utilizada para crear este portafolio, se emplearon herramientas como HTML, CSS, JavaScript, React y Tailwind. Para el backend se usaron Strapi, Render y Cloudinary. También se incluyó la opción de multi lenguajes con la posibilidad de elegir entre inglés y español. ¡Visítalo y conoce más sobre mí!',
+//     english2:'As for the technology used to create this portfolio, tools such as HTML, CSS, JavaScript, React and Tailwind were used. For the backend, Strapi, Render and Cloudinary were used. It also included a multi-language option with the possibility to choose between English and Spanish. Visit it and learn more about me!',
+//     image1: detailsPortafolio2022,
+//     image2: detailsPortafolio20222,
+//     image3: measurePortafolio2022,
+//     lighthouse: 'https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fportafolio-luis1gonzalez.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext',
+//     web: 'https://portfolio-luis1gonzalez-2023.netlify.app/',
+//     github: 'https://github.com/Luis1Gonzalez/portafolio-luis1gonzalez',
+// },
+
 {
     id: 7,
     name: 'Control de Gastos',
