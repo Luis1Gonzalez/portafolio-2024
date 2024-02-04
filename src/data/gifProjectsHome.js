@@ -1,4 +1,4 @@
-import kioskoApp from '../assets/gif-projects/kioskoApp.gif'
+import kioskoApp from '../assets/gif-projects/kiosko-app.gif'
 import projectsManager from '../assets/gif-projects/projects-manager.gif'
 import sysControl from '../assets/gif-projects/sys-control.gif'
 
