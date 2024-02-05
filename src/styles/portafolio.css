@@ -1,3 +1,12 @@
+:root {
+	/* --border-width: 2px; */
+	--border-color: #ffffff;
+	--border-color-animation: #16bdca;
+	/* --body-bg: #0e1217; */
+}
+
+
+/* Snipper */
 .loading {
     display: flex;
     justify-content: center;
@@ -139,4 +148,58 @@
   @keyframes sk-circleFadeDelay {
     0%, 39%, 100% { opacity: 0; }
     40% { opacity: 1; } 
+  }
+
+  /* Border interactive */
+  .borderx {
+    box-shadow: inset 0 0 0 var(--borderx-width) var(--border-color);
+    color: var(--border-color);
+    transition: color 0.2s 0.1s;
+    position: relative;
+    border: 2px solid;
+  }
+  
+  .borderx::before,
+  .borderx::after {
+    border: 0 solid transparent;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  
+  .borderx::before {
+    top: 0;
+    right: 0;
+    border-bottom-width: var(--border-width);
+    border-right-width: var(--border-width);
+  }
+  
+  .borderx::after {
+    left: 0;
+    bottom: 0;
+    border-top-width: var(--border-width);
+    border-left-width: var(--border-width);
+  }
+  
+  .borderx:hover {
+    color: var(--border-color-animation);
+  }
+  
+  .borderx:hover::before,
+  .borderx:hover::after {
+    border-color: var(--border-color-animation);
+    transition: borderx-color 0s, height 0.2s, width 0.2s;
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+  }
+  
+  .borderx:hover::before {
+    transition-delay: 0s, 0s, 0.2s;
+  }
+  
+  .borderx:hover::after {
+    transition-delay: 0.5s, 0.5s, 0.7s;
   }

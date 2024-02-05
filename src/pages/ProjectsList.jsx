@@ -21,7 +21,7 @@ const ProjectsDetails = () => {
                     <div className="flex flex-col items-center gap-3 box-border w-[250px] sm:w-[300px] p-3 lg:flex-row lg:justify-center lg:w-[100%] flex-wrap h-auto">
                         {detailsProjects.map(details => (
                             <div
-                                className="flex flex-col items-center justify-center border rounded-xl shadow-md shadow-slate-50/50 h-[180px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10 hover:blur-sm"
+                                className="borderx flex flex-col items-center justify-center rounded-xl shadow-md shadow-slate-50/50 h-[180px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10"
                                 key={details.id}
                                 onClick={() => navigate(`/project/${details.name}`)}
                             >
