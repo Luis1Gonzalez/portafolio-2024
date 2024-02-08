@@ -23,7 +23,7 @@ const Formation = () => {
 
     return (
         <div id="formation" className="flex flex-col gap-5 md:gap-0 py-5 justify-center items-center border border-gray-700/50">
-            <p className="text-2xl md:text-3xl md:w-[25%] md:mb-4 text-center">{lang === 'english' ? 'Formation' : 'Formación'}</p>
+            <p className="text-2xl md:text-3xl md:w-[25%] md:mb-4 text-center">{lang === 'english' ? 'Education' : 'Educación'}</p>
 
             <div className="flex flex-col md:w-[80%]">
                 <div className=" w-[100%] md:w-[100%] flex flex-col gap-3 justify-center items-center">
