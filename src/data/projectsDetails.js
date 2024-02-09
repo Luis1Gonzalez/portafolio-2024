@@ -70,6 +70,8 @@ import detailsUptask from "../assets/projectsImg/detailsUptask.png"
 import detailsUptask2 from "../assets/projectsImg/detailsUptask2.png"
 import measureUptask from "../assets/projectsImg/measureUptask.png"
 
+import inConstruction from "../assets/general/inConstruction.jpg"
+
 
 const details = [
 {
@@ -355,7 +357,22 @@ const details = [
     lighthouse: 'https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fprojects-admin.vercel.app%2Fproyectos&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#',
     web: 'https://projects-admin.vercel.app/',
     github: 'https://github.com/Luis1Gonzalez/projects_admin_frontend',
-}
+},
+
+// {
+    // id: 18,
+    // name: 'SP Gestión',
+    // spanish1:"Proximamente.",
+    // english1:"Coming Soon.",
+    // spanish2:"",
+    // english2:"",
+    // image1: inConstruction,
+    // image2: null,
+    // image3: null,
+    // lighthouse: '',
+    // web: '',
+    // github: '',
+// }
 
 ]
 export { details }

@@ -17,8 +17,10 @@ import logoLaCartelera from '../assets/logoProjects/logo-laCartelera.png'
 import logoBarraLibre from '../assets/logoProjects/logoBarra.png'
 import logoWeatherApp from '../assets/logoProjects/logo-weatherApp.png'
 import logoZuccherosCakes from '../assets/logoProjects/logo-zuccherosCakes.jpg'
+import logoSPGestion from '../assets/logoProjects/logo-sp-gestion-2.png'
 
 const detailsProjects = [
+    { id: 17, name: 'SP Gestion', image: logoSPGestion, type: 'project'},
     { id: 17, name: 'Projects - Manager', image: logoUpTask, type: 'practice'},
     { id: 16, name: 'LG - SysControl', image: logoSysControl, type: 'project'},
     { id: 15, name: 'KioskoApp', image: logoKioskoApp, type: 'practice'},
