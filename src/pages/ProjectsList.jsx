@@ -1,6 +1,6 @@
 import NavMain from "../components/NavMain"
 import useLanguage from "../hooks/useLanguage"
-import { detailsProjects } from "../data/projectsData"
+import { details } from "../data/projectsDetails"
 import { useNavigate } from "react-router-dom"
 import { useEffect, useState } from "react"
 
@@ -10,12 +10,14 @@ const ProjectsDetails = () => {
     const navigate = useNavigate()
     const [filterProjects, setFilterProjects] = useState([])
     const [filterPractices, setFilterPractices] = useState([])
+    
 
 useEffect(() => {
-    const filterProjectsx = detailsProjects.filter(filter => filter.type === 'project');
+
+    const filterProjectsx = details.filter(filter => filter.type === 'project');
     setFilterProjects(filterProjectsx)
 
-    const filterPracticesx = detailsProjects.filter(filter => filter.type === 'practice');
+    const filterPracticesx = details.filter(filter => filter.type === 'practice');
     setFilterPractices(filterPracticesx)
 
 },[])
@@ -40,7 +42,7 @@ useEffect(() => {
                                 {/* bg-sky-500/10 */}
                                 <p className="text-xl text-center h-[20%]">{details.name}</p>
                                 <img className="w-[70%] h-[70%]"
-                                    src={details.image}
+                                    src={details.logo}
                                     alt={`logo del proyecto ${details.name}`} />
                             </div>
 
@@ -58,7 +60,7 @@ useEffect(() => {
                                 {/* bg-sky-500/10 */}
                                 <p className="text-xl text-center h-[20%]">{details.name}</p>
                                 <img className="w-[70%] h-[70%]"
-                                    src={details.image}
+                                    src={details.logo}
                                     alt={`logo del proyecto ${details.name}`} />
                             </div>
 
