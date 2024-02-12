@@ -97,7 +97,7 @@ import logoWeatherApp from '../assets/logoProjects/logo-weatherApp.png'
 // import logoZuccherosCakes from '../assets/logoProjects/logo-zuccherosCakes.jpg'
 import logoSPGestion from '../assets/logoProjects/logo-sp-gestion-2.png'
 
-import inConstruction from "../assets/general/inConstruction.gif"
+import inConstruction from "../assets/general/inConstruction.jpg"
 
 
 const details = [
