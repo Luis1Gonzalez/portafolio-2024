@@ -18,6 +18,8 @@ import gitSkill from '../assets/skills/git.svg'
 import githubSkill from '../assets/general/logo-github.svg'
 import sourceTreeSkill from '../assets/skills/sourcetree.svg'
 import firebaseSkill from '../assets/skills/firebase.svg'
+import wordpress from '../assets/skills/wordpress.svg'
+import woocommerce from '../assets/skills/woocommerce.svg'
 
 const skillsArrayFrontend = [
     {id: 1, name: 'HTML5', logo: html5Skill},
@@ -57,6 +59,11 @@ const othersSkills = [
     {id: 2, name: 'GitHub', logo: githubSkill},
     {id: 3, name: 'Sourcetree', logo: sourceTreeSkill},
     {id: 4, name: 'Firebase', logo: firebaseSkill},
-
 ]
 export { othersSkills }
+
+const cmsTolls = [
+{id: 1, name: 'Wordpress', logo: wordpress},
+{id: 2, name: 'Woocommerce', logo: woocommerce}
+]
+export { cmsTolls }

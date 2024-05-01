@@ -3,6 +3,7 @@ import { skillsArrayBackend } from '../data/skillsHome.js'
 import { libreriesTollsFrontend } from '../data/skillsHome.js'
 import { libreriesTollsBackend } from '../data/skillsHome.js'
 import { othersSkills } from '../data/skillsHome.js'
+import { cmsTolls } from '../data/skillsHome.js'
 import useLanguage from '../hooks/useLanguage.jsx'
 
 const Skills = () => {
@@ -80,6 +81,21 @@ const Skills = () => {
                         <p className='text-center lg:text-2xl mb-2 md:w-[25%] xl:w-[35%]'>{lang === 'english' ? 'Others' : 'Otros'}</p>
                         <div className='flex gap-2 flex-wrap md:gap-3 w-auto justify-center items-center'>
                             {othersSkills.map(skill => (
+                                <div
+                                    key={skill.id}
+                                    className={`flex border-box p-1 md:p-2 gap-1 items-center border rounded-xl min-w-fit`}
+                                >
+                                    <img className='h-[.7rem] md:h-[1.7rem]' src={skill.logo} alt={`logo de ${skill.name}`} />
+                                    <p className='text-sm'>{skill.name}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className='flex flex-col box-border md:flex-row gap-3 md:gap-0 justify-start items-center w-[100%]'>
+                        <p className='text-center lg:text-2xl mb-2 md:w-[25%] xl:w-[35%]'>{lang === 'english' ? 'CMS / Tolls' : 'CMS / Herramientas'}</p>
+                        <div className='flex gap-2 flex-wrap md:gap-3 w-auto justify-center items-center'>
+                            {cmsTolls.map(skill => (
                                 <div
                                     key={skill.id}
                                     className={`flex border-box p-1 md:p-2 gap-1 items-center border rounded-xl min-w-fit`}

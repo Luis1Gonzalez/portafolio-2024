@@ -1,5 +1,8 @@
 import { useState } from "react"
 import useLanguage from "../hooks/useLanguage"
+import neoland from '../assets/general/neoland.jpg'
+import udemy from '../assets/general/udemy.png'
+import ugma from '../assets/general/ugma.png'
 
 const Formation = () => {
 
@@ -33,8 +36,13 @@ const Formation = () => {
                     <div className="w-[100%] max-w-[300px] flex flex-col items-center justify-center bg-sky-500/15 text-white rounded-xl h-auto">
                         <div className="p-2 px-4 mt-3 text-gray-400 sm:p-3 sm:w-[80%] sm:mb-4 flex flex-col gap-3 border-box h-[70px] overflow-hidden hover:overflow-visible hover:h-auto">
                             <p className="text-lg font-semibold text-center text-gray-300">{lang === 'english' ? 'Industrial Maintenance Engineer' : 'Ingeniero de Mantenimiento Industrial'}</p>
-                            <p className="text-lg font-medium text-gray-300">Universidad Nororiental Gran Mariscal de Ayacucho</p>
-                            <p className="">2006-2009</p>
+                            <p className="text-lg font-medium text-gray-300 text-center">Universidad Nororiental Gran Mariscal de Ayacucho</p>
+                            <div className="w-[100%] flex justify-center">
+                            <img
+                                src={ugma}
+                                className="w-[60px] h-[60px]" />
+                                </div>
+                            <p className="text-center">2006-2009</p>
                         </div>
                     </div>
 
@@ -44,26 +52,47 @@ const Formation = () => {
 
                         <div className="p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex flex-col gap-3 border-box h-[50px] overflow-hidden hover:overflow-visible hover:h-auto">
                             <p className="text-lg font-semibold text-center text-gray-300">Full Stack Bootcamp </p>
-                            <p className="text-lg font-medium text-gray-300">NEOLAND</p>
-                            <p>480 horas</p>
-                            <p>2022</p>
+                            <div className="flex justify-around items-center">
+                                <div>
+                                    <p className="text-lg font-medium text-gray-300">NEOLAND</p>
+                                    <p>480 horas</p>
+                                    <p>2022</p>
+                                </div>
+                                <img
+                                src={neoland}
+                                className="w-[60px] h-[60px]" />
+                            </div>
                         </div>
 
 
                         <div className={`p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex-col gap-3 border-box h-[50px] overflow-hidden hover:overflow-visible hover:h-auto ${showHidden}`}>
                             <p className="text-lg font-semibold text-center text-gray-300">React - La Guía Completa</p>
                             <p className="text-lg font-medium italic text-center text-gray-300">Hooks, Context, Redux, MERN +15 Apps</p>
+                            <div className="flex justify-around items-center">
+                                <div>
                             <p className="text-lg font-medium text-gray-300">UDEMY</p>
                             <p>66.5 horas</p>
                             <p>2024</p>
+                            </div>
+                            <img
+                                src={udemy}
+                                className="w-[60px] h-[60px]" />
+                            </div>
                         </div>
 
                         <div className={`p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex-col gap-3 border-box h-[50px] overflow-hidden hover:overflow-visible hover:h-auto ${showHidden}`}>
-                            <p className="text-lg font-semibold text-center text-gray-300">Master en CSS</p>
-                            <p className="text-lg font-medium italic text-center text-gray-300">Responsive, Sass, Flexbox, Grid y Bootstrap</p>
+                            <p className="text-md md:text-lg font-semibold text-center text-gray-300">Curso Completo de Wordpress</p>
+                            <p className="text-lg font-medium italic text-center text-gray-300">Wordpress, Divi y Woocommerce</p>
+                            <div className="flex justify-around items-center">
+                                <div>
                             <p className="text-lg font-medium text-gray-300">UDEMY</p>
-                            <p>20.5 horas</p>
-                            <p>2022</p>
+                            <p>40.5 horas</p>
+                            <p>2024</p>
+                            </div>
+                            <img
+                                src={udemy}
+                                className="w-[60px] h-[60px]" />
+                            </div>
                         </div>
 
                     </div>
@@ -72,7 +101,7 @@ const Formation = () => {
                 <div className="mt-3 w-[100%] px-2">
                     <p className="text-end">{lang === 'english' ? `See ${read}, click` : `Ver ${leer}, has click`}
                         <span
-                            onClick={() => handleShowHidden() }
+                            onClick={() => handleShowHidden()}
                             className="text-green-600 font-semibold text-xl cursor-pointer pl-2">{lang === 'english' ? 'Here' : 'Aqui'} </span>
                     </p>
                 </div>
