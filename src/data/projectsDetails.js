@@ -74,6 +74,9 @@ import detailsUptask2 from "../assets/projectsImg/detailsUptask2.png"
 import measureUptask from "../assets/projectsImg/measureUptask.png"
 import projectsManager from '../assets/gif-projects/projects-manager.gif'
 
+import detailsSPGestion from "../assets/projectsImg/detailsSPGestion.png"
+import detailsSPGestion2 from "../assets/projectsImg/detailsSPGestion2.png"
+import measureSPGestion from "../assets/projectsImg/measureSPGestion.png"
 
 //Logos
 import logoKioskoApp from '../assets/logoProjects/logo-kioskoApp.png'
@@ -95,9 +98,9 @@ import logoLaCartelera from '../assets/logoProjects/logo-laCartelera.png'
 import logoBarraLibre from '../assets/logoProjects/logoBarra.png'
 import logoWeatherApp from '../assets/logoProjects/logo-weatherApp.png'
 // import logoZuccherosCakes from '../assets/logoProjects/logo-zuccherosCakes.jpg'
-import logoSPGestion from '../assets/logoProjects/logo-sp-gestion-2.png'
+import logoSPGestion from '../assets/logoProjects/logo-sp-gestion.png'
 
-import inConstruction from "../assets/general/inConstruction.jpg"
+// import inConstruction from "../assets/general/inConstruction.jpg"
 
 
 const details = [
@@ -105,16 +108,16 @@ const details = [
     {
         id: 19,
         name: 'SP Gestión',
-        spanish1:"Proximamente.",
-        english1:"Coming Soon.",
-        spanish2:"",
-        english2:"",
-        image1: inConstruction,
-        image2: null,
-        image3: null,
-        lighthouse: '',
-        web: '',
-        github: '',
+        spanish1:"El Sistema de Gestión de Pedidos, “SPGestión”, es una innovadora aplicación web diseñada específicamente para satisfacer las necesidades de gestión de pedidos de una carnicería moderna. Con una interfaz intuitiva y fácil de usar, SPGestión permite a los clientes realizar pedidos desde la comodidad de sus dispositivos, ya sea desde sus ordenadores o sus teléfonos móviles. Este sistema ofrece una experiencia fluida y conveniente para los usuarios, permitiéndoles navegar por un catálogo completo de productos, seleccionar la cantidad deseada y enviar sus pedidos de manera rápida y eficiente. Además de facilitar la realización de pedidos para los clientes, SPGestión optimiza el proceso de gestión de pedidos para la carnicería. Una vez que se reciben los pedidos, el sistema proporciona herramientas poderosas para que el equipo de la carnicería pueda gestionarlos de manera efectiva. Desde la recepción de los pedidos hasta su preparación y entrega, SPGestión simplifica cada paso del proceso, permitiendo una coordinación sin problemas y garantizando la satisfacción del cliente en cada transacción. Con funcionalidades como la gestión de inventario en tiempo real, la programación de entregas y la comunicación instantánea con los clientes, esta aplicación se convierte en una herramienta indispensable para cualquier carnicería que busque optimizar sus operaciones y mejorar la experiencia del cliente.",
+        english1:"The Order Management System, “SPGestión,” is an innovative web application specifically designed to meet the order management needs of a modern butcher shop. With an intuitive and user-friendly interface, SPGestión allows customers to place orders from the convenience of their devices, whether it’s from their computers or mobile phones. This system offers a smooth and convenient experience for users, allowing them to browse through a comprehensive product catalog, select desired quantities, and submit their orders quickly and efficiently. In addition to facilitating order placement for customers, SPGestión streamlines the order management process for the butcher shop. Once orders are received, the system provides powerful tools for the butcher shop’s team to effectively manage them. From order reception to preparation and delivery, SPGestión simplifies each step of the process, enabling seamless coordination and ensuring customer satisfaction with every transaction. With features such as real-time inventory management, delivery scheduling, and instant communication with customers, this application becomes an indispensable tool for any butcher shop looking to streamline operations and enhance the customer experience.",
+        spanish2:"Para llevar a cabo la creación de la aplicación web SPGestión, se emplearon las últimas tecnologías de desarrollo web. React.js y Next.js fueron seleccionados como el marco de trabajo principal, aprovechando su eficiencia y capacidad para crear interfaces de usuario interactivas y dinámicas. Prisma, una base de datos ORM (Object-Relational Mapping) moderna y potente, se integró para gestionar eficazmente los datos de los pedidos y clientes, garantizando un rendimiento óptimo y una escalabilidad flexible. En cuanto al diseño y la presentación, se optó por utilizar Tailwind CSS, un framework de diseño de código abierto que permite un desarrollo rápido y personalizable. Con Tailwind CSS, se logró crear una interfaz de usuario atractiva y fácil de navegar, manteniendo al mismo tiempo un código limpio y modular. Además de estas tecnologías principales, se emplearon los estándares básicos de la web, como HTML, CSS y JavaScript, para garantizar la compatibilidad y la accesibilidad en diversos navegadores y dispositivos. Con esta combinación de tecnologías de vanguardia, SPGestión ofrece una experiencia de usuario excepcional y un rendimiento óptimo en todo momento.",
+        english2:"To carry out the creation of the SPGestión web application, the latest web development technologies were employed. React and Next.js were chosen as the primary framework, leveraging their efficiency and ability to create interactive and dynamic user interfaces. Prisma, a modern and powerful Object-Relational Mapping (ORM) database, was integrated to effectively manage order and customer data, ensuring optimal performance and flexible scalability. For design and presentation, Tailwind CSS was used, an open-source design framework that allows for rapid and customizable development. With Tailwind CSS, an attractive and easy-to-navigate user interface was created while maintaining clean and modular code. In addition to these core technologies, basic web standards such as HTML, CSS, and JavaScript were employed to ensure compatibility and accessibility across various browsers and devices. With this combination of cutting-edge technologies, SPGestión offers an exceptional user experience and optimal performance at all times.",
+        image1: detailsSPGestion,
+        image2: detailsSPGestion2,
+        image3: measureSPGestion,
+        lighthouse: 'https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fadminstrador-de-pedidos.up.railway.app%2Fadmin&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#',
+        web: 'https://adminstrador-de-pedidos.up.railway.app/',
+        github: 'https://github.com/Luis1Gonzalez/order-manager',
         logo: logoSPGestion,
         type: 'project'
     },
