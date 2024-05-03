@@ -10,16 +10,16 @@ const Projects = () => {
 
     const { lang } = useLanguage()
     const navigate = useNavigate()
-    const [firstThree, setFirstThree] = useState([]) 
-    
+    const [firstThree, setFirstThree] = useState([])
 
-    useEffect(() => {    
-    const captureFirstThreeElements = () => {
-        const theFirst = details.slice(1, 4);
-        setFirstThree(theFirst)
-    }
-    captureFirstThreeElements()
-},[])
+
+    useEffect(() => {
+        const captureFirstThreeElements = () => {
+            const theFirst = details.slice(0, 3);
+            setFirstThree(theFirst)
+        }
+        captureFirstThreeElements()
+    }, [])
 
     return (
         <div id="projects" className="flex flex-col lg:flex-row gap-5 md:gap-0 md:p-5  py-5 justify-center border border-gray-700/50 w-[100%]">
@@ -33,24 +33,24 @@ const Projects = () => {
                             className="flex my-3 justify-center"
                         >
                             <div
-                                className=" w-[95%] lg:w-[1/3] h-[245px] bg-gray-100/75 text-black p-3"
+                                className=" w-[95%] sm:w-[95%] lg:w-[1/3] h-[245px] bg-white text-black p-3"
                             >
                                 <p className="text-center mb-3 text-lg md:text-xl">{details.name}</p>
                                 <div>
                                     <img className="h-[135px]" src={details.gif} alt={`imagen del proyecto ${details.name}`} />
                                 </div>
 
-                                <div className="flex justify-end gap-3 items-center">
+                                <div className="flex justify-around gap-3 items-center">
 
                                     <div className="flex items-center">
-                                        <a href={details.githubUrl} target="_blank" rel="noreferrer">
-                                            <img className="h-[2rem]" src={logogithubOriginal} alt="logo de github" />
+                                        <a href={details.github} target="_blank" rel="noreferrer">
+                                            <img className="h-[2rem] pointer" src={logogithubOriginal} alt="logo de github" />
                                         </a>
                                     </div>
 
                                     <div className="flex items-center">
-                                        <a href={details.url} target="_blank" rel="noreferrer">
-                                            <img className="h-[2rem]" src={web} alt="logo de la web" />
+                                        <a href={details.web} target="_blank" rel="noreferrer">
+                                            <img className="h-[2rem] pointer" src={web} alt="logo de la web" />
                                         </a>
                                     </div>
 

@@ -3,6 +3,7 @@ import useLanguage from "../hooks/useLanguage"
 import neoland from '../assets/general/neoland.jpg'
 import udemy from '../assets/general/udemy.png'
 import ugma from '../assets/general/ugma.png'
+import salle from '../assets/general/salle.png'
 
 const Formation = () => {
 
@@ -33,9 +34,9 @@ const Formation = () => {
 
                     <p className="text-xl font-semibold mb-2">{lang === 'english' ? 'University' : 'Universitaria'}</p>
 
-                    <div className="w-[100%] max-w-[300px] flex flex-col items-center justify-center bg-sky-500/15 text-white rounded-xl h-auto">
-                        <div className="p-2 px-4 mt-3 text-gray-400 sm:p-3 sm:w-[80%] sm:mb-4 flex flex-col gap-3 border-box h-[70px] overflow-hidden hover:overflow-visible hover:h-auto">
-                            <p className="text-lg font-semibold text-center text-gray-300">{lang === 'english' ? 'Industrial Maintenance Engineer' : 'Ingeniero de Mantenimiento Industrial'}</p>
+                    <div className="w-[100%] max-w-[300px] flex flex-col items-center justify-center  text-white rounded-xl h-auto gap-3">
+                    <div className="p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex flex-col gap-3 border-box h-[70px] overflow-hidden hover:overflow-visible hover:h-auto">
+                            <p className="text-lg font-semibold text-center text-gray-300">{lang === 'english' ? 'Ingeniero de Mantenimiento Industrial' : 'Ingeniero de Mantenimiento Industrial'}</p>
                             <p className="text-lg font-medium text-gray-300 text-center">Universidad Nororiental Gran Mariscal de Ayacucho</p>
                             <div className="w-[100%] flex justify-center">
                             <img
@@ -44,6 +45,18 @@ const Formation = () => {
                                 </div>
                             <p className="text-center">2006-2009</p>
                         </div>
+
+                        <div className="p-2 px-4 mt-3 text-gray-400 bg-sky-500/15 rounded-xl sm:p-3 w-[100%] max-w-[300px] sm:mb-4 flex flex-col gap-3 border-box h-[70px] overflow-hidden hover:overflow-visible hover:h-auto">
+                            <p className="text-lg font-semibold text-center text-gray-300">{lang === 'english' ? 'TSU en Prevención de Riesgos Laborales' : 'TSU en Prevención de Riesgos Laborales'}</p>
+                            <p className="text-lg font-medium text-gray-300 text-center">IUTEMAR - Fundación la Salle</p>
+                            <div className="w-[100%] flex justify-center">
+                            <img
+                                src={salle}
+                                className="w-[60px] h-[60px]" />
+                                </div>
+                            <p className="text-center">2001-2004</p>
+                        </div>
+
                     </div>
 
                     <p className="text-xl font-semibold mt-2">{lang === 'english' ? 'Courses/Certifications' : 'Cursos/Certificaciones'}</p>

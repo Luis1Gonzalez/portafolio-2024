@@ -61,9 +61,9 @@ const ProjectDetails = () => {
                                 <div className='mb-2 p-2 flex flex-col items-center lg:items-end lg:w-[45%] gap-3'>
                                     <img className='' src={selectedProject.image3} alt={`imagen 3 del proyecto ${selectedProject.name}`} />
                                     <div className="flex gap-2">
-                                    <a target={'_blank'} rel="noreferrer" className='pointer block text-end italic text-yellow-500 capitalize' href={selectedProject.lighthouse}>{lang === 'spanish' ? 'Medición según LightHouse' : 'Measurement according to LightHouse'}</a>
-                                    <img className="h-7" src={click} alt="icono de un click" />
-                                </div>
+                                        <a target={'_blank'} rel="noreferrer" className='pointer block text-end italic text-yellow-500 capitalize' href={selectedProject.lighthouse}>{lang === 'spanish' ? 'Medición según LightHouse' : 'Measurement according to LightHouse'}</a>
+                                        <img className="h-7" src={click} alt="icono de un click" />
+                                    </div>
                                 </div>
 
                                 <div className='flex flex-col justify-end w-100'>
