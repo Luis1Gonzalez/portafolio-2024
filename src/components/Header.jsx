@@ -4,7 +4,7 @@ import logoGithub from '../assets/general/logo-github.svg'
 import logoEmail from '../assets/general/logo-email.svg'
 import logoCv from '../assets/general/logo-cv.svg'
 import cv from '../assets/cvLuisGonzalez.pdf'
-import foto_portafolio_2024 from '../assets/general/foto_portafolio_2024.png'
+import foto_portafolio_2024 from '../assets/general/foto_portafolio_2024.jpg'
 import translate from '../assets/general/translate.svg'
 import useLanguage from "../hooks/useLanguage"
 import { Link } from "react-router-dom"
