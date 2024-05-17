@@ -20,7 +20,7 @@ const ProjectDetails = () => {
         }
         getDetails()
     }, [])
-
+    console.log(details)
     return (
         <div className="flex flex-col w-[100%] min-h-screen items-center">
             <div className="w-[95%]">
@@ -67,6 +67,18 @@ const ProjectDetails = () => {
                                 </div>
 
                                 <div className='flex flex-col justify-end w-100'>
+
+                                    <div className="flex gap-2">
+                                        {selectedProject?.tecnologies?.map((tech, index) => (
+                                            <div
+                                                className="w-6 mb-5"
+                                                key={index}>
+                                                <img src={tech} />
+                                            </div>
+
+                                        ))}
+                                    </div>
+
                                     <div className="flex gap-2">
                                         <a target={'_blank'} rel="noreferrer" className='pointer text-end italic text-yellow-500 capitalize' href={selectedProject.web}>{selectedProject.name}</a>
                                         <img className="h-7" src={click} alt="icono de un click" />
@@ -74,7 +86,9 @@ const ProjectDetails = () => {
 
                                     <div className="flex gap-2">
                                         <a target={'_blank'} rel="noreferrer" className='pointer text-end italic text-yellow-500 capitalize' href={selectedProject.github}>GitHub</a>
-                                        <img className="h-7" src={click} alt="icono de un click" /></div>
+                                        <img className="h-7" src={click} alt="icono de un click" />
+                                    </div>
+
                                 </div>
 
                             </div>

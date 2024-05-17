@@ -28,7 +28,7 @@ const AboutMe = () => {
             <p className="font-bold mb-1">Actualmente estoy:</p>
             <li>Aprendiendo TypeScript</li>
             <li>Mejorando mi nivel de inglés</li>
-            <li>Leyendo el Libro: Métodos Ágiles, Scrum, Kanban, Lean <span className="italic text-green-600">de Carmen Lasa Gómez, Alfonso Álvarez García y Rafael de las Heras del Dedo. Editorial ANAYA</span></li>
+            <li>Leyendo el Libro: Métodos Ágiles Scrum, Kanban, Lean <span className="italic text-green-600">de Carmen Lasa Gómez, Alfonso Álvarez García y Rafael de las Heras del Dedo. Editorial ANAYA</span></li>
           </ul>
         )}</div>
 

@@ -42,9 +42,9 @@ import detailsJZ from "../assets/projectsImg/detailsJZ.png";
 import detailsJZ2 from "../assets/projectsImg/detailsJZ2.png";
 import measureJZ from "../assets/projectsImg/measureJZ.png";
 
-import detailsMyCities from "../assets/projectsImg/detailsMyCities.png";
-import detailsMyCities2 from "../assets/projectsImg/detailsMyCities2.png";
-import measureMyCities from "../assets/projectsImg/measureMyCities.png";
+import detailsTipCalculator from "../assets/projectsImg/detailsTipCalculator1.jpg";
+import detailsTipCalculator2 from "../assets/projectsImg/detailsTipCalculator2.jpg";
+import measureTipCalculator from "../assets/projectsImg/measureTipCalculator.jpg";
 
 import detailsNewsChannel from "../assets/projectsImg/detailsNewsChannel.png";
 import detailsNewsChannel2 from "../assets/projectsImg/detailsNewsChannel2.png";
@@ -86,7 +86,7 @@ import logoBarraLibre2 from "../assets/logoProjects/logoBarra2.png";
 import logoMenuMuestra from "../assets/logoProjects/logo-menu.png";
 import logoNewsChannel from "../assets/logoProjects/logo-notiApp.png";
 import logoJZ from "../assets/logoProjects/logoZacaro.png";
-import logoMyCities from "../assets/logoProjects/logo-myCities.png";
+import logoTipCalculator from "../assets/logoProjects/logo-tip-calculator.jpg";
 import logoCrypto from "../assets/logoProjects/logo-cryptoCalcul.png";
 import logoAutoSeguro from "../assets/logoProjects/logo-autosegur.png";
 import logoControlGastos from "../assets/logoProjects/logo-controlGastos.png";
@@ -101,6 +101,22 @@ import logoWeatherApp from "../assets/logoProjects/logo-weatherApp.png";
 import logoSPGestion from "../assets/logoProjects/logo-sp-gestion.png";
 
 // import inConstruction from "../assets/general/inConstruction.jpg"
+
+import js from '../assets/skills/js.svg'
+import ts from '../assets/skills/typescript.svg'
+import react from '../assets/skills/react.svg'
+import vite from '../assets/skills/vite.svg'
+import next from '../assets/skills/next.svg'
+import prisma from '../assets/skills/prisma.svg'
+import tailwind from '../assets/skills/tailwind.svg'
+import mongodb from '../assets/skills/mongodb.svg'
+import express from '../assets/skills/express.svg'
+import node from '../assets/skills/node.svg'
+import bootstrap from '../assets/skills/bootstrap.svg'
+import mui from '../assets/skills/mui.svg'
+import strapi from '../assets/skills/strapi.svg'
+import cloudinary from '../assets/skills/cloudinary.svg'
+import sass from '../assets/skills/sass.svg'
 
 const details = [
   {
@@ -123,6 +139,7 @@ const details = [
     github: "https://github.com/Luis1Gonzalez/order-manager",
     gif: sPGestion,
     logo: logoSPGestion,
+    tecnologies: [react, js, next, prisma, tailwind],
     type: "project",
   },
 
@@ -146,6 +163,7 @@ const details = [
     github: "https://github.com/Luis1Gonzalez/projects_admin_frontend",
     gif: projectsManager,
     logo: logoUpTask,
+    tecnologies: [react, js, vite, tailwind, mongodb, express, node],
     type: "practice",
   },
 
@@ -169,6 +187,7 @@ const details = [
     github: "https://github.com/Luis1Gonzalez/lg-sysControl",
     gif: sysControl,
     logo: logoSysControl,
+    tecnologies: [react, js, next, prisma, tailwind],
     type: "project",
   },
 
@@ -192,6 +211,7 @@ const details = [
     github: "https://github.com/Luis1Gonzalez/kioskoapp_deployment.git",
     gif: kioskoApp,
     logo: logoKioskoApp,
+    tecnologies: [react, js, next, prisma, tailwind],
     type: "practice",
   },
 
@@ -214,6 +234,7 @@ const details = [
     web: "https://barra-libre-45-2.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/barra-libre-45-2.0",
     logo: logoBarraLibre2,
+    tecnologies: [react, js, vite, tailwind, bootstrap],
     type: "practice",
   },
 
@@ -236,6 +257,7 @@ const details = [
     web: "https://menu-muestra.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/menu-muestra",
     logo: logoMenuMuestra,
+    tecnologies: [react, js, vite],
     type: "project",
   },
 
@@ -258,6 +280,7 @@ const details = [
     web: "https://newschanel.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/canal-de-noticias",
     logo: logoNewsChannel,
+    tecnologies: [react, js, vite, mui],
     type: "practice",
   },
 
@@ -280,27 +303,29 @@ const details = [
     web: "https://jz-disenos-y-muebles.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/jz-diseno",
     logo: logoJZ,
+    tecnologies: [react, js, vite, bootstrap],
     type: "project",
   },
 
   {
     id: 11,
-    name: "My Cities",
+    name: "Calculadora de Consumo",
     spanish1:
-      "My Cities, un sitio web donde el visitante podra encontrar información y fotografías de ciudades de todo el mundo. En My Cities, se encontrará datos interesantes como la extensión y población de las ciudades, sino también datos curiosos Además, he incluido una breve descripción de mi experiencia en cada una de estas ciudades que he visitado. También he creado una sección de souvenirs que el usuario podria comprar en esta página web. Además he habilitado un carrito de compras para practicar la funcionalidad de la venta.",
+      'La "Calculadora de Consumo" es una aplicación web diseñada para simplificar el proceso de pago en restaurantes. Con una interfaz intuitiva, presenta una lista de platos junto con sus precios, permitiendo a los clientes seleccionar los elementos que han consumido. Además, ofrece la flexibilidad de elegir el porcentaje de propina que desean dejar. Una vez seleccionados los elementos y la propina, la aplicación calcula automáticamente el total a pagar, agilizando así el proceso de cobro y mejorando la experiencia del cliente en el restaurante. Con esta herramienta, tanto los clientes como el personal del restaurante pueden realizar transacciones con mayor facilidad y precisión, reduciendo posibles errores y agilizando el flujo de trabajo.',
     english1:
-      "My Cities, a website where the visitor can find information and photographs of cities around the world. In My Cities, you will find interesting data such as the extension and population of the cities, but also curious facts. In addition, I have included a brief description of my experience in each of these cities that I have visited. I have also created a section of souvenirs that the user could buy in this web page. I have also enabled a shopping cart to practice the functionality of the sale.",
+      'The "Consumption Calculator" is a web application designed to simplify the payment process in restaurants. With an intuitive interface, it presents a list of dishes along with their prices, allowing customers to select the items they have consumed. Additionally, it offers the flexibility to choose the percentage of tip they wish to leave. Once the items and tip are selected, the application automatically calculates the total amount to be paid, streamlining the billing process and enhancing the customer experience in the restaurant. With this tool, both customers and restaurant staff can conduct transactions more easily and accurately, reducing potential errors and speeding up workflow.',
     spanish2:
-      "En la elaboración de este sitio web utilicé para el frontend tecnologías como HTML, CSS, JavaScript, React Remix y Tailwind logrando una buena estética y funcionalidad. Para el backend, configuramos Strapi, Render y Cloudinary para asegurarnos de que la página sea rápida y eficiente.",
+      'La aplicación "Calculadora de Consumo" fue desarrollada utilizando tecnologías modernas para ofrecer un rendimiento óptimo y una experiencia de usuario fluida. Fue creada con React.js, un popular framework de JavaScript para la construcción de interfaces de usuario interactivas y escalables. Además, se utilizó Vite como herramienta de construcción rápida que optimiza el tiempo de compilación y proporciona un entorno de desarrollo ágil. Esta fue mi primera experiencia utilizando TypeScript, un lenguaje de programación tipado que añade seguridad y claridad al código, permitiendo una mejor gestión de errores y facilitando el mantenimiento a largo plazo. Por último, se implementó Tailwind CSS para el diseño y estilización de la interfaz de usuario, aprovechando su enfoque de utilidad-first para una mayor flexibilidad y eficiencia en el desarrollo. Como resultado, la aplicación obtuvo un 100% de rendimiento en la evaluación de Lighthouse, demostrando su capacidad para ofrecer una experiencia de usuario rápida y eficiente.',
     english2:
-      "In the development of this website I used for the frontend technologies such as HTML, CSS, JavaScript, React Remix and Tailwind achieving a good aesthetics and functionality. For the backend, we configured Strapi, Render and Cloudinary to make sure the page is fast and efficient.",
-    image1: detailsMyCities,
-    image2: detailsMyCities2,
-    image3: measureMyCities,
-    lighthouse: "",
-    web: "https://mycities.vercel.app/",
-    github: "https://github.com/Luis1Gonzalez/MyCitiesRemix",
-    logo: logoMyCities,
+      'The "Consumption Calculator" application was developed using modern technologies to offer optimal performance and a smooth user experience. It was created with React.js, a popular JavaScript framework for building interactive and scalable user interfaces. Additionally, Vite was used as a fast build tool that optimizes build time and provides an agile development environment. This was my first experience using TypeScript, a typed programming language that adds security and clarity to the code, enabling better error management and facilitating long-term maintenance. Finally, Tailwind CSS was implemented for designing and styling the user interface, leveraging its utility-first approach for greater flexibility and efficiency in development. As a result, the application achieved a 100% performance score in the Lighthouse evaluation, demonstrating its ability to deliver a fast and efficient user experience.',
+    image1: detailsTipCalculator,
+    image2: detailsTipCalculator2,
+    image3: measureTipCalculator,
+    lighthouse: "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fluis1gonzalez.github.io%2Ftip-calculator%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#",
+    web: "https://luis1gonzalez.github.io/tip-calculator/",
+    github: "https://github.com/Luis1Gonzalez/tip-calculator",
+    logo: logoTipCalculator,
+    tecnologies: [react, ts, vite, tailwind],
     type: "practice",
   },
 
@@ -323,6 +348,7 @@ const details = [
     web: "https://my-crypto-calculator.netlify.app",
     github: "https://github.com/Luis1Gonzalez/crypto-calculator",
     logo: logoCrypto,
+    tecnologies: [react, js, vite, tailwind],
     type: "practice",
   },
 
@@ -345,6 +371,7 @@ const details = [
     web: "https://auto-seguro.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/auto-seguro",
     logo: logoAutoSeguro,
+    tecnologies: [react, js, vite, tailwind],
     type: "practice",
   },
 
@@ -367,6 +394,7 @@ const details = [
     web: "https://control-gastos-presupuesto-mes.netlify.app",
     github: "https://github.com/Luis1Gonzalez/control-gastos",
     logo: logoControlGastos,
+    tecnologies: [react, js, vite, tailwind],
     type: "practice",
   },
 
@@ -389,6 +417,7 @@ const details = [
     web: "https://portfolio-luis1gonzalez-2023.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/portafolio-luis1gonzalez",
     logo: logoPortafolio2023,
+    tecnologies: [react, js, strapi, cloudinary, tailwind],
     type: "project",
   },
 
@@ -426,6 +455,7 @@ const details = [
     web: "https://talleres-euromecanica.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/euroMecanica",
     logo: logoEuroMecanica,
+    tecnologies: [react, js, vite, tailwind],
     type: "practice",
   },
 
@@ -448,6 +478,7 @@ const details = [
     web: "https://tik-tac.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/tik-tac",
     logo: logoTikTac,
+    tecnologies: [react, js],
     type: "practice",
   },
 
@@ -470,6 +501,7 @@ const details = [
     web: "https://la-cartelera-es.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/laCarteleraEs",
     logo: logoLaCartelera,
+    tecnologies: [react, js, bootstrap, mongodb, express, node],
     type: "practice",
   },
 
@@ -492,6 +524,7 @@ const details = [
     web: "https://barra-libre-45.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/barra-libre-45",
     logo: logoBarraLibre,
+    tecnologies: [react, js, bootstrap, sass],
     type: "practice",
   },
 
@@ -514,6 +547,7 @@ const details = [
     web: "https://weather-1-app.netlify.app/",
     github: "https://github.com/Luis1Gonzalez/weather-app",
     logo: logoWeatherApp,
+    tecnologies: [react, js],
     type: "practice",
   },
 
