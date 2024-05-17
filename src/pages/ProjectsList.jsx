@@ -35,7 +35,7 @@ useEffect(() => {
                     <p className="text-2xl md:text-3xl md:w-[25%] mb-3 md:mb-4 text-center">{lang === 'english' ? 'Projects' : 'Proyectos'}</p>
                         {filterProjects.map(details => (
                             <div
-                                className="borderx flex flex-col items-center justify-center rounded-xl shadow-md shadow-slate-50/50 h-[180px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10"
+                                className="borderx flex flex-col items-center justify-center rounded-xl shadow-md shadow-slate-50/50 h-[180px] sm:h-[250px] lg:h-[200px] xl:h-[250px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10"
                                 key={details.id}
                                 onClick={() => navigate(`/project/${details.name}`)}
                             >
@@ -53,7 +53,7 @@ useEffect(() => {
                     <p className="text-2xl md:text-3xl md:w-[25%] mb-3 md:mb-4 text-center">{lang === 'english' ? 'Practices' : 'Practicas'}</p>
                         {filterPractices.map(details => (
                             <div
-                                className="borderx flex flex-col items-center justify-center rounded-xl shadow-md shadow-slate-50/50 h-[180px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10"
+                                className="borderx flex flex-col items-center justify-center rounded-xl shadow-md shadow-slate-50/50 h-[180px] sm:h-[250px] lg:h-[200px] xl:h-[250px] gap-2 p-1 sm:p-4  w-[100%] lg:w-[30%] hover:bg-sky-500/10"
                                 key={details.id}
                                 onClick={() => navigate(`/project/${details.name}`)}
                             >
