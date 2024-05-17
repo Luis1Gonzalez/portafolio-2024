@@ -68,7 +68,7 @@ const ProjectDetails = () => {
 
                                 <div className='flex flex-col justify-end w-100'>
 
-                                    <div className="flex gap-2">
+                                    <div className="flex gap-2 justify-center">
                                         {selectedProject?.tecnologies?.map((tech, index) => (
                                             <div
                                                 className="w-6 mb-5"
