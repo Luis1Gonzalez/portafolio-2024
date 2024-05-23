@@ -43,7 +43,7 @@ const libreriesTollsFrontend = [
     {id: 2, name: 'Sass', logo: sassSkill},
     {id: 3, name: 'Bootstrap', logo: bootstrapSkill},
     {id: 4, name: 'TailwindCss', logo: tailwindSkill},
-    {id: 5, name: 'Remix', logo: remixSkill},
+    // {id: 5, name: 'Remix', logo: remixSkill},
 ]
 export { libreriesTollsFrontend }
 
@@ -51,8 +51,7 @@ const libreriesTollsBackend = [
     {id: 1, name: 'Strapi', logo: strapiSkill},
     {id: 2, name: 'NextJs', logo: nextSkill},
     {id: 3, name: 'Prisma', logo: prismaSkill},
-    {id: 4, name: 'Redux', logo: reduxSkill},
-    {id: 5, name: 'Postman', logo: postmanSkill},
+    // {id: 4, name: 'Redux', logo: reduxSkill},
 ]
 export { libreriesTollsBackend }
 
@@ -60,7 +59,8 @@ const othersSkills = [
     {id: 1, name: 'Git', logo: gitSkill},
     {id: 2, name: 'GitHub', logo: githubSkill},
     {id: 3, name: 'Sourcetree', logo: sourceTreeSkill},
-    {id: 4, name: 'Firebase', logo: firebaseSkill},
+    {id: 4, name: 'Postman', logo: postmanSkill},
+    {id: 5, name: 'Firebase', logo: firebaseSkill},
 ]
 export { othersSkills }
 

@@ -68,7 +68,7 @@ const Skills = () => {
                             {libreriesTollsBackend.map(skill => (
                                 <div
                                     key={skill.id}
-                                    className={`flex border-box p-1 md:p-2 gap-1 items-center border rounded-xl min-w-fit opacity-50`}
+                                    className={`flex border-box p-1 md:p-2 gap-1 items-center border rounded-xl min-w-fit`}
                                 >
                                     <img className='h-[.7rem] md:h-[1.7rem]' src={skill.logo} alt={`logo de ${skill.name}`} />
                                     <p className='text-sm'>{skill.name}</p>
