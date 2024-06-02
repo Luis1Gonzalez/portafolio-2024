@@ -6,20 +6,8 @@
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
-        <url>
-        <loc>https://www.luis1gonzalez.com/#projects</loc>
-        <lastmod>2024-06-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
     <url>
         <loc>https://www.luis1gonzalez.com/projects</loc>
-        <lastmod>2024-06-02</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-        <url>
-        <loc>https://www.luis1gonzalez.com/#formation</loc>
         <lastmod>2024-06-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
