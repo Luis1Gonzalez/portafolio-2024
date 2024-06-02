@@ -10,7 +10,6 @@ const Core = () => {
     return (
         <div className='flex flex-col max-w-[1100px] min-w-[320px] w-[90%] h-[100%] p-5 bg-gray-900/50 gap-y-5 md:gap-14'>
             <BrowserRouter>
-
                 <Routes>
                     <Route path="/" element={<Index />}></Route>
                     <Route path='/projects' element={<ProjectsList />}></Route>
