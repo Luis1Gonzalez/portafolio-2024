@@ -23,6 +23,7 @@ const { lang, setLang, translation } = useLanguage()
                 <div className=''><Link to='/'>{lang === 'english' ? 'Home' : 'Inicio'}</Link></div>
                 <div><a href="#projects">{lang === 'english' ? 'Projects' : 'Proyectos'}</a></div>
                 <div><a href="#formation">{lang === 'english' ? 'Education' : 'Formación'}</a></div>
+                <div><a href="#skills">{lang === 'english' ? 'Skills' : 'Habilidades'}</a></div>
                 <div
                 onClick={() => translation(setLang)}
                 className='bg-sky-300 p-1 rounded-md shadow-xl cursor-pointer hover:bg-sky-500'>
