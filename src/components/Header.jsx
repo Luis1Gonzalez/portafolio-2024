@@ -22,7 +22,7 @@ const { lang, setLang, translation } = useLanguage()
             <nav className='bg-gray-800 flex justify-evenly mt-2 py-3 font-semibold text-md md:text-xl'>
                 <div className=''><Link to='/'>{lang === 'english' ? 'Home' : 'Inicio'}</Link></div>
                 <div><a href="#projects">{lang === 'english' ? 'Projects' : 'Proyectos'}</a></div>
-                <div><a href="#formation">{lang === 'english' ? 'Formation' : 'Formación'}</a></div>
+                <div><a href="#formation">{lang === 'english' ? 'Education' : 'Formación'}</a></div>
                 <div
                 onClick={() => translation(setLang)}
                 className='bg-sky-300 p-1 rounded-md shadow-xl cursor-pointer hover:bg-sky-500'>
@@ -37,7 +37,7 @@ const { lang, setLang, translation } = useLanguage()
 
                 <div className='mt-5 md:order-1'>
                     <p className='text-xl text-emerald-500 font-semibold sm:text-2xl xl:text-4xl'>Hello</p>
-                    <p className=' sm:text-3xl italic xl:text-4xl xl:font-bold md:my-1'><Typewriter
+                    <h1 className=' sm:text-3xl italic xl:text-4xl xl:font-bold md:my-1'><Typewriter
                         words={['I`m Luis', 'I`m Luis González']}
                         loop={100}
                         cursor
@@ -45,8 +45,8 @@ const { lang, setLang, translation } = useLanguage()
                         typeSpeed={200}
                         deleteSpeed={150}
                         delaySpeed={1000}
-                    /></p>
-                    <p className='text-xl text-emerald-500 font-semibold sm:text-2xl xl:text-4xl'>Frontend Developer</p>
+                    /></h1>
+                    <h2 className='text-xl text-emerald-500 font-semibold sm:text-2xl xl:text-4xl'>Frontend Developer</h2>
 
                     <div className='flex justify-center items-start gap-5 mt-10 text-sm md:text-md'>
                         <div>
