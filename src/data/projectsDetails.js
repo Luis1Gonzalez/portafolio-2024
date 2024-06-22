@@ -84,7 +84,7 @@ import logoSysControl from "../assets/logoProjects/logo-SysControl.png";
 import logoUpTask from "../assets/logoProjects/logo-uptask.png";
 import logoBarraLibre2 from "../assets/logoProjects/logoBarra2.png";
 import logoMenuMuestra from "../assets/logoProjects/logo-menu.png";
-import logoCookBook from "../assets/logoProjects/logo-CookBook.png";
+import logoCookBook from "../assets/logoProjects/logo-cookBook.png";
 import logoJZ from "../assets/logoProjects/logoZacaro.png";
 import logoTipCalculator from "../assets/logoProjects/logo-tip-calculator.jpg";
 import logoCrypto from "../assets/logoProjects/logo-cryptoCalcul.png";
