@@ -46,9 +46,9 @@ import detailsTipCalculator from "../assets/projectsImg/detailsTipCalculator1.jp
 import detailsTipCalculator2 from "../assets/projectsImg/detailsTipCalculator2.jpg";
 import measureTipCalculator from "../assets/projectsImg/measureTipCalculator.jpg";
 
-import detailsCookBook from "../assets/projectsImg/detailsCookBook.JPG";
-import detailsCookBook2 from "../assets/projectsImg/detailsCookBook2.JPG";
-import measureCookBook from "../assets/projectsImg/measureCookBook.JPG";
+import detailsCookBook from "../assets/projectsImg/detailsCookBook.jpg";
+import detailsCookBook2 from "../assets/projectsImg/detailsCookBook2.jpg";
+import measureCookBook from "../assets/projectsImg/measureCookBook.jpg";
 
 import detailsMenu from "../assets/projectsImg/detailsMenu.png";
 import detailsMenu2 from "../assets/projectsImg/detailsMenu2.png";
