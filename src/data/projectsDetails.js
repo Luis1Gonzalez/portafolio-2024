@@ -46,9 +46,9 @@ import detailsTipCalculator from "../assets/projectsImg/detailsTipCalculator1.jp
 import detailsTipCalculator2 from "../assets/projectsImg/detailsTipCalculator2.jpg";
 import measureTipCalculator from "../assets/projectsImg/measureTipCalculator.jpg";
 
-import detailsNewsChannel from "../assets/projectsImg/detailsNewsChannel.png";
-import detailsNewsChannel2 from "../assets/projectsImg/detailsNewsChannel2.png";
-import measureNewsChannel from "../assets/projectsImg/measureNewsChannel.png";
+import detailsCookBook from "../assets/projectsImg/detailsCookBook.JPG";
+import detailsCookBook2 from "../assets/projectsImg/detailsCookBook2.JPG";
+import measureCookBook from "../assets/projectsImg/measureCookBook.JPG";
 
 import detailsMenu from "../assets/projectsImg/detailsMenu.png";
 import detailsMenu2 from "../assets/projectsImg/detailsMenu2.png";
@@ -84,7 +84,7 @@ import logoSysControl from "../assets/logoProjects/logo-SysControl.png";
 import logoUpTask from "../assets/logoProjects/logo-uptask.png";
 import logoBarraLibre2 from "../assets/logoProjects/logoBarra2.png";
 import logoMenuMuestra from "../assets/logoProjects/logo-menu.png";
-import logoNewsChannel from "../assets/logoProjects/logo-notiApp.png";
+import logoCookBook from "../assets/logoProjects/logo-CookBook.png";
 import logoJZ from "../assets/logoProjects/logoZacaro.png";
 import logoTipCalculator from "../assets/logoProjects/logo-tip-calculator.jpg";
 import logoCrypto from "../assets/logoProjects/logo-cryptoCalcul.png";
@@ -263,24 +263,24 @@ const details = [
 
   {
     id: 13,
-    name: "NewsChannel",
+    name: "CookBook",
     spanish1:
-      "News Channel es un sitio web que ofrece noticias actualizadas de todo el mundo en inglés. El sitio web tiene dos secciones en las que los usuarios pueden filtrar las noticias según sus intereses. Las secciones disponibles son todo, negocios, mundo, política, startups, entretenimiento, miscelánea, salud, hatke, automóvil, deportes y tecnología. Los usuarios pueden navegar fácilmente por el sitio web y mantenerse informados sobre la actualidad.",
+      "CookBook es una aplicación diseñada para los amantes de la cocina que desean explorar una amplia variedad de recetas de manera fácil y rápida. La app permite a los usuarios buscar recetas de comidas utilizando la potente API de edamam.com, lo que garantiza una vasta base de datos con platos de todo el mundo. Al realizar una búsqueda, CookBook proporciona múltiples versiones del plato seleccionado, detallando ingredientes, métodos de preparación, fotos de alta calidad y el tipo de alimento al que pertenece. Esta funcionalidad hace que encontrar y preparar nuevas recetas sea una experiencia enriquecedora y sencilla. CookBook ofrece una herramienta de búsqueda avanzada y organiza las recetas de manera intuitiva, facilitando la planificación de menús y la creación de nuevas experiencias culinarias.",
     english1:
-      "News Channel is a website that provides up-to-date news from all over the world in English. The website has two sections where users can filter news according to their interests. The sections available are all, business, world, politics, startups, entertainment, miscellaneous, health, hatke, automobile, sports, and technology. Users can easily navigate through the website and stay informed on current events.",
+      "CookBook is an application designed for cooking enthusiasts who want to explore a wide variety of recipes quickly and easily. The app allows users to search for food recipes using the powerful edamam.com API, ensuring a vast database of dishes from around the world. When performing a search, CookBook provides multiple versions of the selected dish, detailing ingredients, preparation methods, high-quality photos, and the type of food. This functionality makes finding and preparing new recipes an enriching and straightforward experience. CookBook offers an advanced search tool and organizes the recipes intuitively, facilitating meal planning and the creation of new culinary experiences.",
     spanish2:
-      "Para crear News Channel, utilizamos HTML, CSS, JavaScript y React. Para dar al sitio web un aspecto pulido, utilizamos la biblioteca MUI que demostró ser completa y fácil de usar. Además, implementamos fetching para obtener las últimas noticias que se muestran en el sitio web. News Channel es un sitio web fácil de usar que proporciona actualizaciones de noticias oportunas en un formato visualmente atractivo.",
+      "La arquitectura de CookBook está construida utilizando las últimas tecnologías del desarrollo web, asegurando una experiencia de usuario fluida y rápida. La aplicación está desarrollada con React.js, un framework de JavaScript ampliamente reconocido por su capacidad para crear interfaces de usuario dinámicas y eficientes. El uso de TypeScript, un superset de JavaScript que introduce tipos estáticos, garantiza un código más robusto y menos propenso a errores, facilitando el mantenimiento y la escalabilidad de la aplicación. Además, CookBook incorpora TailwindCSS, un framework CSS moderno y altamente personalizable que permite diseñar interfaces atractivas y responsive de manera rápida y eficiente. Estas tecnologías se combinan para ofrecer una aplicación que no solo es poderosa y funcional, sino también estéticamente agradable y fácil de usar, proporcionando a los usuarios una herramienta indispensable para mejorar su experiencia en la cocina.",
     english2:
-      "To create News Channel, we used HTML, CSS, JavaScript, and React. To give the website a polished look and feel, we utilized the MUI library which proved to be comprehensive and easy to use. Additionally, we implemented fetching to obtain the latest news stories that are displayed on the website. News Channel is a user-friendly website that provides timely news updates in a visually appealing format.",
-    image1: detailsNewsChannel,
-    image2: detailsNewsChannel2,
-    image3: measureNewsChannel,
+      "CookBook’s architecture is built using the latest web development technologies, ensuring a smooth and fast user experience. The application is developed with React.js, a widely recognized JavaScript framework for creating dynamic and efficient user interfaces. The use of TypeScript, a superset of JavaScript that introduces static types, ensures more robust and error-resistant code, making the application easier to maintain and scale. Additionally, CookBook incorporates TailwindCSS, a modern and highly customizable CSS framework that allows for the rapid and efficient design of attractive and responsive interfaces. These technologies combine to offer an application that is not only powerful and functional but also aesthetically pleasing and easy to use, providing users with an indispensable tool to enhance their cooking experience.",
+    image1: detailsCookBook,
+    image2: detailsCookBook2,
+    image3: measureCookBook,
     lighthouse:
-      "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fnewschanel.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext",
-    web: "https://newschanel.netlify.app/",
-    github: "https://github.com/Luis1Gonzalez/canal-de-noticias",
-    logo: logoNewsChannel,
-    tecnologies: [react, js, vite, mui],
+      "https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fun-recetario.netlify.app%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext#",
+    web: "https://cookbook-online.netlify.app/",
+    github: "https://github.com/Luis1Gonzalez/cookbook-online",
+    logo: logoCookBook,
+    tecnologies: [react, ts, vite, tailwind],
     type: "practice",
   },
 
