@@ -7,7 +7,7 @@ import Web from '../assets/general/site.svg'
 
 const Lobby = () => {
   return (
-    <div className="flex justify-center mb-[100px] mt-[30px]">
+    <div className="flex justify-center mb-[100px] mt-[50px]">
         <div className="text-white max-w-[400px] w-[100%] mb-12 border border-cyan-50 px-2 py-12 rounded-md">
         <h1 className='text-2xl text-center text-white mb-12'>¿Que quieres hacer?</h1>
         
