@@ -2,7 +2,8 @@ import Index from '../src/pages/Index.jsx'
 import Footer from './components/Footer.jsx'
 import ProjectDetails from './pages/ProjectDetails.jsx'
 import ProjectsList from './pages/ProjectsList.jsx'
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import Lobby from './pages/Lobby.jsx'
+import { Routes, Route, BrowserRouter, } from 'react-router-dom'
 import './styles/portafolio.css'
 
 
@@ -14,6 +15,7 @@ const Core = () => {
                     <Route path="/" element={<Index />}></Route>
                     <Route path='/projects' element={<ProjectsList />}></Route>
                     <Route path='/project/:name/' element={<ProjectDetails/>}></Route>
+                    <Route path='/lobby/' element={<Lobby/>}></Route>
                 </Routes>
                 <Footer />
             </BrowserRouter>
