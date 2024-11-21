@@ -5,6 +5,7 @@ import ProjectsList from './pages/ProjectsList.jsx'
 import Lobby from './pages/Lobby.jsx'
 import { Routes, Route, BrowserRouter, } from 'react-router-dom'
 import './styles/portafolio.css'
+import QrCode from './pages/QrCode.jsx'
 
 
 const Core = () => {
@@ -16,6 +17,7 @@ const Core = () => {
                     <Route path='/projects' element={<ProjectsList />}></Route>
                     <Route path='/project/:name/' element={<ProjectDetails/>}></Route>
                     <Route path='/lobby/' element={<Lobby/>}></Route>
+                    <Route path='/qr' element={<QrCode />}></Route>
                 </Routes>
                 <Footer />
             </BrowserRouter>
