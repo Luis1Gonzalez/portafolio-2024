@@ -15,7 +15,7 @@ const Lobby = () => {
 
         <div className='flex items-center hover:scale-105'>
         <img src={Web} alt="web-site" className='w-8 h-8 mr-4'/>
-                <a href='https://luis1gonzalez.com' className='text-center' target="_blank" rel="noreferrer">Visitiar mi Web</a>
+                <a href='https://luis1gonzalez.com' className='text-center' target="_blank" rel="noreferrer">Visitar mi Web</a>
             </div>
 
             <div className='flex items-center hover:scale-105'>
